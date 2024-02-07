@@ -29,6 +29,11 @@ body {
     margin: 50px 175px;   
 }
 
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
 ul {
     list-style: none;
     display: flex;
