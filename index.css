@@ -7,16 +7,11 @@ body {
     justify-content: center;
 }
 
-.header.img {
-    max-width: 250px;
+.header img {
+    max-width: 175px;
 }
 
-.main img {
-    max-width: 400px;
-    padding: 125px;
-}
-
-.header
+.header,
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
@@ -30,7 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     justify-content: end;
-    flex 1;
+    flex: 1;
     margin: 50px 175px;   
 }
 
@@ -63,6 +58,11 @@ ul {
     padding: 10px 20px;
     align-items: center;
     border: none;
+}
+
+.first img {
+    max-width: 500px;
+    margin: 50px;
 }
 
 .first h4 {
@@ -99,8 +99,9 @@ ul {
 .cards img {
     border-radius: 8px;
     border: solid #3882F6 2px;
-    max-width: 250px
-    padding: 0;
+    max-width: 250px;
+    max-height: 140px;
+    padding: 0px;
 }
 
 .third {
